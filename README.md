@@ -88,11 +88,25 @@
     - często zmienne
     - nie musi zawierać unikatów
 - definiując relacje można określić kierunek - obie strony (najczęściej używa się jeden)
-- kierunek przeciąągania podczas tworzenia relacji nie ma znaczenia
+- kierunek przeciągania podczas tworzenia relacji nie ma znaczenia
+- PB wiąże domyślnie tabele po zgodnych nazwa kolumn (+ wykrywanie krotności)
+- w praktyce tworzy się daty z tabeli kalendarza z polami dat tabel transakcyjnych
+- tylko jedna relacja daty może być aktywna (pozostałe mają przerywaną linię)
+- koleś tabele z danymi ustawia na dole, a słownikowe wyżej
+- ustawione relacje mają bezpośredni wpływ dla prezentacje wizualizacji, ponieważ
+  określają filtrowanie danych - kierunek filtrowania wskazaju strzałka w diagramie
+  Należy na to uważać, gdy coś się źle liczy
+- gość poleca klucze obce w tabelach ukrywać (kropeczki), żeby użytkownik przez przypadek tego nie użył
+  (fofnięcie przez pokaż ukryte)
 
 #### Miary
-
- 
+- koleś poleca dla id ustawiać string a nie int (uniknięcie liczenia)
+- miara liczona jeszt dla tebeli i nie pojawia się w widoku danych tylko na drzewie tabeli
+  w postaci "kalkulatora"
+- wartość miary wyliczana jest w kontekście filtra
+- tworząc miary możemy używać miar zdefionwanych już wcześniej (wpływa to na lepszą wydajność)
+- najpierw tworzymy atomowe miary, a kolejne miary niech z nich korzystają
+ f
 #### Tworzenie wizualizacji
 
 - klikamy pusty obszar raportu, następnie ikonę wizualizacji, np. kartę
@@ -111,7 +125,7 @@ możemy rozwijać i wybrać np. średnią. max albo inne wyliczenie
   i nie korzystać (Plik->Ustawienia->Opcje->Analiza czasowa/Automatyczna..) - to jest amatorszczyzna
 - jeżeli chcemy dodatkowo filtrować dane - można użyć komponentu "Fragmentator" lub "Fragmentator przycisku"
 - przy polu data i użycia fragmentatora pojawia się pasek zakresu
-
+- w komponentach wizualizacji jest Karta z wieloma wirszami
 
 #### Tabela kalendarza (dat)
 
