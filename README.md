@@ -67,7 +67,15 @@
 - możliwe jest zaciąganie danych z internetu (url z csv)
 - do edycji formuł w PB używamy języka "DAX" (w PQ jest "M"), DAX jest analogią do formuł Excela
  
-
+#### DAX
+- operuje na modelu danych (po załadowaniu danych)
+- w celu rozpoczęci apracy z DAX
+  - wchodzimy w widok tabeli, potem Narzędziagłowne/Wprowadź dane i zapisujemy
+  - dodajemy nową miarę i usuwamy zbędną kolumnę (Kolumna 1)
+  - możemy też dodać "nową kolumnę" do istniejhącej tabeli
+-  operatory logincze: lub - "||", i "&&"
+-  
+ 
 #### Tworzenie wizualizacji
 
 - klikamy pusty obszar raportu, następnie ikonę wizualizacji, np. kartę
