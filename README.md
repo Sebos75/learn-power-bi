@@ -68,6 +68,7 @@
 - do edycji formuł w PB używamy języka "DAX" (w PQ jest "M"), DAX jest analogią do formuł Excela
  
 #### DAX
+
 - operuje na modelu danych (po załadowaniu danych)
 - w celu rozpoczęci apracy z DAX
   - wchodzimy w widok tabeli, potem Narzędziagłowne/Wprowadź dane i zapisujemy
@@ -75,6 +76,22 @@
   - możemy też dodać "nową kolumnę" do istniejhącej tabeli
 -  operatory logincze: lub - "||", i "&&"
 -  
+#### Widok modelu (ralacji)
+- w tym miejscy tworzymy lub oglądamy relacje między tabelami
+- rodzaje tabel:
+  -   Lookup tables (nazywane: wymiarów/słownikowe/):
+    - krótkie (mało danych)
+    - musi zawierać pole unikalne
+    - dane rzadko  się zmieniają
+  - Data Tables - tabele transakcyjne (tabele faktu)
+    - dużo danych
+    - często zmienne
+    - nie musi zawierać unikatów
+- definiując relacje można określić kierunek - obie strony (najczęściej używa się jeden)
+- kierunek przeciąągania podczas tworzenia relacji nie ma znaczenia
+
+#### Miary
+
  
 #### Tworzenie wizualizacji
 
