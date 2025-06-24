@@ -76,7 +76,11 @@
   - możemy też dodać "nową kolumnę" do istniejhącej tabeli
 -  operatory logincze: lub - "||", i "&&"
 -  funkcja related() pozwala na odwołanie się w formule danej tabeli do innej tabeli w celu pobrania wartości
--  
+-  calculate -  bardzo ważna funkcja, jeżeli podamy drugi argiment filtru, to będzie on niezależny od fragmentatora
+   tego samego pola
+ - podczas podawania warunku, ciąg stringu podajemy w podwójnym cudzysłowie
+ - 
+
 #### Widok modelu (ralacji)
 
 - w tym miejscy tworzymy lub oglądamy relacje między tabelami
@@ -168,7 +172,6 @@ możemy rozwijać i wybrać np. średnią. max albo inne wyliczenie
 - Narzędzia główne/"Przekształć dane"/V "Ustawienia źródła danych"/"Zmień źródło"
 - następnie jeszcze należy kliknąć "Odśwież"
 - odświeżenie danych stosuje kroki zdefiniowane w PQ podczas przekształcania danych
-
 
 #### Dostosowywanie motywu
 
