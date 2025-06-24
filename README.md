@@ -75,8 +75,10 @@
   - dodajemy nową miarę i usuwamy zbędną kolumnę (Kolumna 1)
   - możemy też dodać "nową kolumnę" do istniejhącej tabeli
 -  operatory logincze: lub - "||", i "&&"
+-  funkcja related() pozwala na odwołanie się w formule danej tabeli do innej tabeli w celu pobrania wartości
 -  
 #### Widok modelu (ralacji)
+
 - w tym miejscy tworzymy lub oglądamy relacje między tabelami
 - rodzaje tabel:
   -   Lookup tables (nazywane: wymiarów/słownikowe/):
@@ -101,12 +103,13 @@
 
 #### Miary
 - koleś poleca dla id ustawiać string a nie int (uniknięcie liczenia)
-- miara liczona jeszt dla tebeli i nie pojawia się w widoku danych tylko na drzewie tabeli
-  w postaci "kalkulatora"
+- miara liczona jest dla tebeli i nie pojawia się w widoku danych tylko na drzewie tabeli
+  w postaci ikony "kalkulatora"
 - wartość miary wyliczana jest w kontekście filtra
 - tworząc miary możemy używać miar zdefionwanych już wcześniej (wpływa to na lepszą wydajność)
 - najpierw tworzymy atomowe miary, a kolejne miary niech z nich korzystają
- f
+
+  
 #### Tworzenie wizualizacji
 
 - klikamy pusty obszar raportu, następnie ikonę wizualizacji, np. kartę
