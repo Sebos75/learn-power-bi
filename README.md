@@ -112,7 +112,12 @@
 - wartość miary wyliczana jest w kontekście filtra
 - tworząc miary możemy używać miar zdefionwanych już wcześniej (wpływa to na lepszą wydajność)
 - najpierw tworzymy atomowe miary, a kolejne miary niech z nich korzystają
-
+- calculate tłuy do tego, żeby filtrować dane i nieuzależniań tego filtru od filtrów dynamicznych
+- calculate(wyrazenie;ALL('sprzedawcy'); - zdejmowanie filtrów z wierszy - nie używaj filtrów tabeli 'sprzedawcy'
+- calculate(wyrazenie; ALL('moja_tabela') dzięki temu dzięki relacjom filtrowanie innymi tabelami nie działa
+- funkcje analizy czasowej, wymaga użycia tabeli kalendarza z ciągłością i daty są unikatowe
+- miary warto tworzyć przy tabelach faktów ewentualnie w jednej tabeli
+- calculate([kol];DATEADD('tabela'[Data];-1;YEAR))
   
 #### Tworzenie wizualizacji
 
